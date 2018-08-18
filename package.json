@@ -1,0 +1,32 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "MySQL & NodeJS Assignment ",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnnyNeagoe/bamazon.git"
+  },
+  "keywords": [
+    "mySql",
+    "nodejs",
+    "online",
+    "shopping",
+    "tables",
+    "rows",
+    "products"
+  ],
+  "author": "Johnny Neagoe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JohnnyNeagoe/bamazon/issues"
+  },
+  "homepage": "https://github.com/JohnnyNeagoe/bamazon#readme",
+  "dependencies": {
+    "inquirer": "^6.1.0",
+    "mysql": "^2.16.0"
+  }
+}
