@@ -47,7 +47,6 @@ function managerMenu() {
         }
     });
 }
-
 function productSearch(){
     console.log("Displaying all Products...\n");
     let query = "SELECT * FROM products"
@@ -60,7 +59,6 @@ function productSearch(){
         managerMenu();
     });
 };
-
 function lowInventoryCount(){
     let query = "SELECT * FROM products WHERE stock_quantity < 5"
     connection.query(query, function(err, res) {
